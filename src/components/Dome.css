@@ -1,0 +1,95 @@
+.Dome{
+    
+      border: 15px solid black;
+      height:95.8vh;
+      background-color:black;
+}
+.innerDome{
+    border: 10px solid white;
+    border-radius:10px;
+    height:90vh;
+    background-color:white;
+}
+.inner-inner-Dome{
+    
+    height:89vh;
+    border-radius:10px;
+    background-color: #d3cac6;
+    
+
+}
+.inner-inner-Dome .light1{
+    margin-left: 40%;
+}
+.inner-inner-Dome .light2{
+    margin-left: 10%;
+}
+
+.inner-inner-Dome .button{
+    position: absolute;
+    width: 50px;
+    left: 80%;
+    bottom: 8%;
+    float: right;
+}
+
+.scoreCard{
+    width:160px;
+    color:white;
+    font-family: ClockFont;
+    font-size:50px;
+    background-color:black;
+    border-radius:10px;
+    margin-left: 9%;
+    margin-top: 0.2%;
+    height: 5vh;
+    padding: 0.5%;
+}
+.playBoard{
+   height:85%;
+   font-family: ClockFont;
+   font-size:50px; 
+   width: 100%;
+   margin: auto;
+}
+.playBoard p{
+    text-align: center;
+    margin-top:10%
+
+ }
+ .playBoard .Monster{
+     margin: auto;
+     width: 35%;
+     margin-left:25%;
+ }
+ .playBoard table{
+     font-size: 100%;
+    margin-top:10%;
+    width: 100%;
+    
+ }
+ .playBoard table tr{
+    padding: 10px;
+   
+}
+.playBoard table tr td{
+    padding: 10px;
+   
+}
+.innermost-Dome{
+ width: 80%;
+ margin: auto;
+ background-color:white;
+ height:65vh;
+ border-radius:10px;
+ border: 15px solid black;
+}
+.innermost-Dome img{
+    width:7.6%;
+    padding-left:4.5%;
+    padding-right: 4.5%;
+}
+@font-face {
+    font-family: ClockFont;
+    src: url('SFDigitalReadout-Heavy.ttf');
+  }
