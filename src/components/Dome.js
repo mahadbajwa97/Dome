@@ -104,7 +104,7 @@ class Dome extends Component {
                     <div className="scoreCard col-2">
                         {this.state.tab==="Connecting"?<span>CONNECT</span>:"4350"}
                     </div>
-                    <div className="col bar"><i class="fas fa-bars"></i></div>
+                    <div className="col bar justify-content-end"><i class="fas fa-bars"></i></div>
                     <div className="col"><img src={button} className="button" alt="" onClick={(e)=>this.activateTab(e)} name="monsterButton"/></div>
                     </div>
                 </div>

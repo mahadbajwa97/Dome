@@ -72,7 +72,7 @@
 }
 .playBoard p{
     text-align: center;
-    margin-top:10%
+    
 
  }
  
@@ -116,8 +116,8 @@
    font-size: 70px; 
    float: right;
    display: flex;
-   justify-content: center;
-   align-items: center;
+   
+   text-align: right;
 }
 
 @font-face {
