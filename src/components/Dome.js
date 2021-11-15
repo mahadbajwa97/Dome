@@ -67,13 +67,15 @@ class Dome extends Component {
                     <img src={light} className="light1" alt=""/>
                     <img src={light} className="light2" alt=""/>
                         
-                        <div className="innermost-Dome row">
+                        <div className="innermost-Dome">
+                            <div className="row iconRow">
                         <img name="stats" className="col" src={stats} onClick={(e)=>this.activateTab(e)} alt=""/>  
                         <img name="chicken" className="col" src={chicken} onClick={(e)=>this.activateTab(e)} alt=""/>
                         <img name="weights" className="col" src={weights} onClick={(e)=>this.activateTab(e)} alt=""/>
                         <img name="swords" className="col" src={swords} onClick={(e)=>this.activateTab(e)} alt=""/>
                         <img name="firstAid" className="col" src={firstAid} onClick={(e)=>this.activateTab(e)} alt=""/>
                         <img name="shit" className="col" src={shit} onClick={(e)=>this.activateTab(e)} alt=""/>
+                        </div>
                        <div className="playBoard">
                            
                            {this.state.tab==="Connecting"?<p>CONNECT</p>:""}
@@ -101,10 +103,11 @@ class Dome extends Component {
                         </div>  
                    <div className="row options"> 
                    
-                    <div className="scoreCard col-2">
+                    <div className="scoreCard">
                         {this.state.tab==="Connecting"?<span>CONNECT</span>:"4350"}
                     </div>
-                    <div className="col bar justify-content-end"><i class="fas fa-bars"></i></div>
+                    <div className="bar justify-content-end col"><i class="fas fa-bars"></i>
+                    </div>
                     <div className="col"><img src={button} className="button" alt="" onClick={(e)=>this.activateTab(e)} name="monsterButton"/></div>
                     </div>
                 </div>

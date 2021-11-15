@@ -7,13 +7,13 @@
 .innerDome{
     border: 10px solid white;
     border-radius:10px;
-    height:90vh;
+    height:95vh;
     background-color:white;
     
 }
 .inner-inner-Dome{
     
-    height:87vh;
+    height:92vh;
     border-radius:10px;
     background-color: #d3cac6;
     
@@ -22,11 +22,14 @@
 .inner-inner-Dome .light1{
     width:3vw;
     margin-left: 40%;
+    padding-bottom: 30px;
     
+ 
 }
 .inner-inner-Dome .light2{
     margin-left: 10%;
     width:3vw;
+    padding-bottom: 30px;
     
 }
 
@@ -35,7 +38,7 @@
     width: 80px;
     margin-right: 10%;
     display: flex;
-   justify-content: center;
+   justify-content: right;
    align-items: center; 
     z-index: 1000;
     
@@ -47,18 +50,20 @@
     font-family: ClockFont;
     font-size:50px;
     text-align: center;
+    width:150px;
     background-color:black;
     border-radius:10px;
    margin-left: 11%;
    display: flex;
-   justify-content: center;
+   justify-content: end;
    align-items: center;
-    height: 10vh;
+    height: 11vh;
     
     
 }
 .options{
- margin-top: 1%;
+ margin-top: 0.4%;
+ max-width: 100%;
 }
 .playBoard{
    height:85%;
@@ -68,7 +73,8 @@
    margin: auto;
    display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    
 }
 .playBoard p{
     text-align: center;
@@ -101,7 +107,7 @@
  width: 80%;
  margin: auto;
  background-color:white;
- height:65vh;
+ height:69vh;
  border-radius:10px;
  border: 15px solid black;
 }
@@ -116,9 +122,31 @@
    font-size: 80px; 
    float: right;
    display: flex;
-   
+   float: right;
    text-align: right;
+   margin-left: 45%;
 }
+.iconRow{
+    margin-top: 1.5%;
+}
+
+@media screen and (max-width: 992px) {
+    .scoreCard{
+        margin-left: 12.5%;
+    }
+    .bar {
+      margin-left: 22%;
+    }
+  }
+@media screen and (max-width: 600px)
+   {
+    .scoreCard{
+        margin-left: 13.5%;
+    }
+    .bar {
+      margin-left:2%
+    }
+  }
 
 @font-face {
     font-family: ClockFont;
