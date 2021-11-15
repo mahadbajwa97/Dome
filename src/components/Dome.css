@@ -1,7 +1,7 @@
 .Dome{
     
       border: 15px solid black;
-      height:95.8vh;
+      height:100vh;
       background-color:black;
 }
 .innerDome{
@@ -9,41 +9,56 @@
     border-radius:10px;
     height:90vh;
     background-color:white;
+    
 }
 .inner-inner-Dome{
     
-    height:89vh;
+    height:87vh;
     border-radius:10px;
     background-color: #d3cac6;
     
 
 }
 .inner-inner-Dome .light1{
+    width:3vw;
     margin-left: 40%;
+    
 }
 .inner-inner-Dome .light2{
     margin-left: 10%;
+    width:3vw;
+    
 }
 
 .inner-inner-Dome .button{
-    position: absolute;
-    width: 50px;
-    left: 80%;
-    bottom: 8%;
-    float: right;
+    position: relative;
+    width: 70px;
+    margin-right: 10%;
+    display: flex;
+   justify-content: center;
+   align-items: center; 
+    z-index: 1000;
+    
 }
 
 .scoreCard{
-    width:160px;
+    
     color:white;
     font-family: ClockFont;
-    font-size:50px;
+    font-size:3.5vw;
+    text-align: center;
     background-color:black;
     border-radius:10px;
-    margin-left: 9%;
-    margin-top: 0.2%;
-    height: 5vh;
-    padding: 0.5%;
+   margin-left: 11%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 9vh;
+    
+    
+}
+.options{
+ margin-top: 1%;
 }
 .playBoard{
    height:85%;
@@ -51,30 +66,36 @@
    font-size:50px; 
    width: 100%;
    margin: auto;
+   display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 .playBoard p{
     text-align: center;
     margin-top:10%
 
  }
- .playBoard .Monster{
-     margin: auto;
-     width: 35%;
-     margin-left:25%;
+ 
+ .playBoard .Monster img{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+     width: 300px;
+     height:45vh;
+     
  }
- .playBoard table{
+ .playBoard .stats{
      font-size: 100%;
-    margin-top:10%;
+     
     width: 100%;
-    
+    margin: auto;
  }
- .playBoard table tr{
-    padding: 10px;
-   
-}
-.playBoard table tr td{
-    padding: 10px;
-   
+
+.playBoard .stats .row .col{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .innermost-Dome{
  width: 80%;
@@ -88,7 +109,17 @@
     width:7.6%;
     padding-left:4.5%;
     padding-right: 4.5%;
+    z-index: 1000;
 }
+.bar
+{
+   font-size: 70px; 
+   float: right;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 @font-face {
     font-family: ClockFont;
     src: url('SFDigitalReadout-Heavy.ttf');
